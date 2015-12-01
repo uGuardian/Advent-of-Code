@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF64FE7D1C0E3CEE00ED60EB /* Stuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stuff; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF64FE7D1C0E3CEE00ED60EB /* Stuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Stuff; path = /Users/heavyse.sea0310/Documents/Stuff/build/Release/Stuff; sourceTree = "<absolute>"; };
 		AF64FE801C0E3CEE00ED60EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AF64FE871C0E3E4100ED60EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/Stuff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +50,7 @@
 		AF64FE7E1C0E3CEE00ED60EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF64FE7D1C0E3CEE00ED60EB /* Stuff */,
+				AF64FE881C0E3E4100ED60EB /* Stuff */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +124,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF64FE881C0E3E4100ED60EB /* Stuff */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF64FE871C0E3E4100ED60EB /* en */,
+			);
+			name = Stuff;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF64FE821C0E3CEE00ED60EB /* Debug */ = {
